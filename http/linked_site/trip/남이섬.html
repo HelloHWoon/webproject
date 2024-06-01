@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#자연 #숲 #강</p><p>남이섬</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/춘천/남이섬/image06.png">
+                    <img src="/image/region/춘천/남이섬/image07.png">
+                    <img src="/image/region/춘천/남이섬/image08.png">
+                    <img src="/image/region/춘천/남이섬/image09.png">
+                    <img src="/image/region/춘천/남이섬/image10.png">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>남이섬은 동화 나라, 노래의 섬을 콘셉트로 다양한 문화행사, 콘서트 및 전시를 꾸준히 개최해 오고 있으며, 어린이들에게는 꿈과 희망을, 연인들에게는 사랑과 추억을, 문화계 인사들에게는 창작의 터전과 기반을 마련해 주고 있는 자연 생태 문화공간이다. 주요 시설로는 노래 박물관, 그림책 놀이터, MICE 센터, 투개더파크, 유니세프 라운지 등의 문화시설과 자전거, 나눔 열차, 스토리 투어버스 등의 유기시설이 갖춰져 있고 다양한 메뉴를 즐길 수 있는 식음시설, 다양한 테마로 꾸며진 객실과 강변의 독립적인 공간을 가진 별관으로 이루어진 숙박시설 호텔정관루가 있다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

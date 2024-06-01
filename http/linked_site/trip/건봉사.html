@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#역사 #문화</p><p>건봉사</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/고성/건봉사/1.jpg">
+                    <img src="/image/region/고성/건봉사/2.jpg">
+                    <img src="/image/region/고성/건봉사/3.jpg">
+                    <img src="/image/region/고성/건봉사/4.jpg">
+                    <img src="/image/region/고성/건봉사/5.jpg">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>전국 4대 사찰 중 한 곳으로 신라 법흥왕때 지어진 오랜 사찰이다. 건봉사에는 신라 자장율사가 당에서 가져온 부처님의 진신 치아사리와 무지개 모양의 능파교, 그 양쪽에 바라밀 문양의 돌기둥, 불이문이 옛 건봉사터에 천년이 넘는 역사를 그대로 간직하고 있다. 임진왜란 때 사명대사에 의한 승병 봉기처이기도 했던 호국사적지로서 의승병기념관이 있다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

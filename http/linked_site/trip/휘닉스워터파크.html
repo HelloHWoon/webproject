@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#워터파크 #액티비티 #인기 #어린이</p><p>휘닉스워터파크</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/평창/휘닉스워터파크/1.jpg">
+                    <img src="/image/region/평창/휘닉스워터파크/2.jpg">
+                    <img src="/image/region/평창/휘닉스워터파크/3.jpg">
+                    <img src="/image/region/평창/휘닉스워터파크/4.jpg">
+                    <img src="/image/region/평창/휘닉스워터파크/5.jpg">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>해발 700m 청정 고원지대에 자리잡은 휘닉스 파크는 휘닉스 스노우 파크, 호텔, 콘도, 휘닉스 컨트리클럽, 블루캐니언 등의 휴양 레저시설을 갖춘 종합리조트이다. 사계절 자연의 아름다운 풍광을 조망하며 몸과 마음을 회복하는 공간, 국내 콘도 중 최고층을 자랑하는 스카이콘도를 포함하여 콘도 3개동, 호텔 1개동, 빌라 3개동, 유스호스텔 1개동으로 구성되어 있다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

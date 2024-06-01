@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            .category{
+                margin: 0 auto;
+                width: 1250px;
+                height: 500px;
+            }
+            .category > p{
+                font-size: 30pt;
+                font-weight: 900;
+                margin-left: 20px;
+            }
+            .category img{
+                width: 380px;
+                height: 420px;
+                margin-left: 20px;
+                border-radius: 10%;
+                border: solid 2px black;
+            }
+            .category > div{
+                display: inline-block;
+            }
+            .category > div > p{
+                margin-left: 25px;
+                font-size: 18pt;
+                font-weight: 900;
+            }
+            .re_img{
+                margin: 0 auto;
+                margin-top: 5px;
+                width: 1880px;
+                height: 600px;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div class="re_img">
+            <img src="/image/region/동해/동해_썸네일.png">
+        </div>
+        <div class="category" style="margin-top: 50px;">
+            <p>여행지</p>
+            <div><a href="/linked_site/trip/도째비골스카이밸리.html" target="_parent"><img src="/image/region/동해/도째비골 스카이밸리/0.png"></a><p>도째비골스카이밸리</p></div>
+            <div><a href="/linked_site/trip/무릉계곡.html" target="_parent"><img src="/image/region/동해/무릉계곡/0.png"></a><p>무릉계곡</p></div>
+            <div><a href="/linked_site/trip/무릉별유천지.html" target="_parent"><img src="/image/region/동해/무릉별유천지/0.png"></a><p>무릉별유천지</p></div>
+        </div>
+        <div class="category" style="margin-top: 140px; margin-bottom: 50px;">
+            <div><a href="/linked_site/trip/추암촛대바위.html" target="_parent"><img src="/image/region/동해/추암촛대바위/0.png"></a><p>추암촛대바위</p></div>
+            <div><a href="/linked_site/trip/천곡황금박쥐동굴.html" target="_parent"><img src="/image/region/동해/천곡황금박쥐동굴/0.png"></a><p>천곡황금박쥐동굴</p></div>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

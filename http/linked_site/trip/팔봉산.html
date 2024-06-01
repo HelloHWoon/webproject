@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#산 #숲 #자연 #풍경</p><p>팔봉산</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/홍천/팔봉산/image89.png">
+                    <img src="/image/region/홍천/팔봉산/image90.png">
+                    <img src="/image/region/홍천/팔봉산/image91.png">
+                    <img src="/image/region/홍천/팔봉산/image92.png">
+                    <img src="/image/region/홍천/팔봉산/image93.png">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>홍천군 서면 팔봉리에 있는 산으로 홍천강이 산의 삼면을 둘러싸고 있다. 산림청이 지정한 한국의 100대 명산이자 홍천 8경의 하나로 꼽힌다. 등산하기 전에 산을 바라보면 명성에 비해 너무 낮다고 생각할 수 있으나 실제로 산에 올라가면 암릉길이 만만치 않아 다시 한번 놀란다. 강 남쪽 연안을 따라 여덟 개의 봉우리가 길게 뻗어 있고 여덟 개의 봉우리는 대부분 암릉으로 되어 있어 로프를 잡고 오르거나 수직에 가까운 사다리를 오르내리는 구간이 있어 조심해야 한다. 낮은 산이지만 바위와 암벽이 많고 능선이 험하여 산행 시간이 많이 걸린다. 등산은 팔봉산 관광지 주차장에서 출발하여 1봉으로 오른 후 2봉에서 하산하는 A 코스와 7봉에서 하산하는 B 코스, 8봉까지 오른 후 하산하는 코스가 있다. 등산로가 다소 험하고 미끄러우므로 등산화를 착용하고 안전에 유의해야 한다. 주변에 팔봉산 야영지, 야외공연장, 풋살경기장 등이 있어 팔봉산의 다양한 레저활동을 즐길 수 있다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

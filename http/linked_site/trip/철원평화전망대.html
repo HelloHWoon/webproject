@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#관람</p><p>철원평화전망대</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/철원/철원평화전망대/1.jpg">
+                    <img src="/image/region/철원/철원평화전망대/2.jpg">
+                    <img src="/image/region/철원/철원평화전망대/3.jpg">
+                    <img src="/image/region/철원/철원평화전망대/4.jpg">
+                    <img src="/image/region/철원/철원평화전망대/평4.jpg">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>철원 평화전망대는 강원도 철원군 동송읍에 위치한 전망대로, 비무장지대(DMZ)와 북한 지역을 한눈에 내려다볼 수 있는 곳이다. 2007년에 준공된 이곳은 대한민국과 북한 국경 지역에서 약 2km 떨어진 곳에 자리하고 있으며, 총 3층으로 건립되어 1층은 전시관, 2층은 전망대, 3층은 군부대 휴게시설로 사용하고 있다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

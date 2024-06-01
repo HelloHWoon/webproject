@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#동굴 #자연</p><p>천곡황금박쥐동굴</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/동해/천곡황금박쥐동굴/1.jpg">
+                    <img src="/image/region/동해/천곡황금박쥐동굴/2.png">
+                    <img src="/image/region/동해/천곡황금박쥐동굴/3.jpg">
+                    <img src="/image/region/동해/천곡황금박쥐동굴/4.jpg">
+                    <img src="/image/region/동해/천곡황금박쥐동굴/5.png">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>강원도 동해시 시내 중심부에 위치한 동굴은 1991년 아파트 공사를 하다 우연히 발견되어 1996년부터 일반에 공개되었다. 천곡황금박쥐동굴에는 세계적 멸종 위기종인 황금박쥐가 서식하는 것으로 알려져 있다. 1,510m 길이의 동굴은 810m만 관람 구간으로 개방하고 나머지는 보존 지역으로 보호하고 있다. 천장에 매달린 대형 종유석, 바닥에서 솟은 석순, 종유석과 석순이 기둥으로 연결된 석주 등 기이한 동굴 생성물을 볼 수 있고, 천장에 깊은 도랑을 형성한 천장 용식구는 한국에서 가장 큰 규모를 자랑한다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

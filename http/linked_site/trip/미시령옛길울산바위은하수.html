@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#산 #숲 #자연 #풍경</p><p>미시령옛길 울산바위 은하수</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/고성/미시령옛길 울산바위 은하수/1.jpg">
+                    <img src="/image/region/고성/미시령옛길 울산바위 은하수/2.jpg">
+                    <img src="/image/region/고성/미시령옛길 울산바위 은하수/3.jpg">
+                    <img src="/image/region/고성/미시령옛길 울산바위 은하수/4.jpg">
+                    <img src="/image/region/고성/미시령옛길 울산바위 은하수/5.jpg">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>미시령은 고성군 토성면과 인제군 북면의 경계를 이루는 고개다. 인제에서 속초로 넘어가는 통로로 사용되었던 미시령은 설악산 울산바위를 한눈에 조망할 수 있는 전망대다. 이곳에서 바라보는 울산바위의 매력을 찾아오는 관광객이 많다. 특히 미시령옛길이 울산바위 은하수 촬영 포인트로 입소문이 나면서 맑은 날 밤이면 공터 주차장을 가득 채울 만큼 사진 동호인들의 발길이 이어지고 있다. 병풍처럼 우뚝 솟은 울산바위만으로도 매우 아름답지만, 그 위로 쏟아지는 신비로운 은하수를 바라보고 있으면 꿈결처럼 느껴질 정도다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

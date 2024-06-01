@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#강 #풍경</p><p>소양강스카이워크</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/춘천/소양강 스카이워크/image16.png">
+                    <img src="/image/region/춘천/소양강 스카이워크/image17.png">
+                    <img src="/image/region/춘천/소양강 스카이워크/image18.png">
+                    <img src="/image/region/춘천/소양강 스카이워크/image19.png">
+                    <img src="/image/region/춘천/소양강 스카이워크/image20.png">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>강 위로 시원하게 뻗은 소양강스카이워크는 전체 길이가 174m, 그중 바닥이 투명 강화유리로 된 구간이 무려 156m에 이른다. 교량 끝부분에는 원형 광장과 날개처럼 뻗은 전망대를 설치했다. 잠시 머물며 풍경을 감상하기 좋다. 바닥이 투명한 원형 광장에 앉아 기념사진을 남기기도 한다. 원형 광장 맞은편에는 일명 ‘쏘가리상’이라 불리는 조각상이 있다. 정해진 시간에 조각상에서 분수가 나온다. 소양강스카이워크 입구에는 아기자기한 포토존과 테라스를 마련했고 바로 옆에는 춘천 랜드마크라 불리는 소양 2교와 소양강처녀상이 자리한다. 일몰 후 화려한 조명으로 물드는 스카이워크 야경도 놓치지 말자.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

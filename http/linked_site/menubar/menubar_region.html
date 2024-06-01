@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="region_css.css">
+        <script defer src="region.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            .re_img{
+                margin: 0 auto;
+                margin-top: 5px;
+                width: 1880px;
+                height: 600px;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div class="re_img">
+            <img src="/image/region_img.png">
+        </div>
+        <div class="map">
+            <img src="/image/map/강원도.png" id="main_img" usemap="#map_hover" style="
+                position: relative; width: 800px; height: 565px; top: 110px;">
+            <map name="map_hover">
+                <area
+                onmouseover="on_mouse_num(1)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="502,260,506,288,532,289,545,313,528,348,555,369,575,347,,615,356,617,319,558,242"
+                href="/linked_site/region/gangneung.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(2)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="441,20,429,65,410,95,448,139,461,139,470,156,499,146"
+                href="/linked_site/region/goseong.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(3)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="620,340,630,345,630,357,639,377,618,383,600,394,594,387,601,375,594,362,611,357"
+                href="/linked_site/region/donghae.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(4)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="691,480,683,435,645,381,604,395,590,389,577,400,567,419,580,459,592,424,606,422,604,465,624,479,626,496,647,511,659,513,668,490"
+                href="/linked_site/region/samcheok.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(5)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="501,146,476,158,464,154,459,162,470,177,506,163"
+                href="/linked_site/region/sokcho.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(6)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="367,106,376,117,392,116,395,133,386,138,376,165,378,182,374,188,381,206,371,201,368,211,355,212,347,203,340,211,332,202,334,193,328,181,329,169,327,156,321,150,321,131,328,120,344,120,354,130,360,115"
+                href="/linked_site/region/yanggu.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(7)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="505,169,456,183,460,200,476,200,482,220,477,229,471,234,474,246,480,254,488,251,501,259,514,251,553,242"
+                href="/linked_site/region/yangyang.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(8)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="579,509,573,505,574,497,568,493,577,481,567,476,542,463,515,470,499,461,496,441,470,431,466,422,459,421,457,433,450,437,438,429,434,417,426,401,415,407,401,405,403,417,398,425,387,425,383,434,390,440,404,433,410,437,408,448,414,455,422,460,434,458,420,475,422,482,443,477,451,478,454,488,459,494,471,491,484,498,504,501,535,520,543,512,547,500,565,512"
+                href="/linked_site/region/yeongwol.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(9)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="407,437,404,448,394,458,384,454,379,464,363,467,360,454,348,448,334,456,335,472,302,484,290,472,292,444,290,436,296,431,293,413,307,389,319,406,323,398,324,384,330,380,335,371,340,387,352,387,366,389,375,400,365,411,361,430,379,436,381,442,392,441"
+                href="/linked_site/region/wonju.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(10)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="376,115,406,97,419,102,418,111,427,114,431,134,441,140,458,139,462,153,455,161,466,177,454,182,457,203,475,202,478,215,475,227,467,229,471,250,463,257,455,254,443,265,432,269,428,258,419,259,407,275,396,259,397,248,378,248,363,234,354,235,350,222,361,211,368,213,370,202,379,208,384,196,378,188,382,179,376,172,385,150,385,142,398,128,394,113"
+                href="/linked_site/region/inje.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(11)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="573,344,576,357,584,362,592,360,590,372,597,376,590,386,578,390,574,400,567,402,563,419,568,428,566,434,577,463,579,480,573,476,564,474,541,462,525,470,513,469,509,460,499,457,495,446,504,441,489,406,482,402,484,396,482,385,494,384,497,375,499,354,506,349,509,359,519,351,525,361,533,364,537,359,547,359,550,367,556,373,565,370,567,359"
+                href="/linked_site/region/jeongseon.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(12)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="323,119,319,111,304,113,298,106,282,111,263,115,258,111,246,112,232,122,225,114,216,117,205,110,183,116,167,111,151,118,146,111,128,126,134,143,144,140,159,173,173,158,180,161,174,172,183,179,187,187,199,177,207,183,228,176,228,167,232,154,240,143,254,125,262,135,271,132,279,137,288,126,301,124,315,128"
+                href="/linked_site/region/cheorwon.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(13)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="248,192,255,198,263,201,267,209,278,206,284,210,290,206,300,218,320,214,319,204,328,202,331,210,341,212,343,205,349,208,348,219,347,229,351,237,346,244,346,252,341,258,338,268,330,257,324,258,322,267,307,265,310,272,310,280,317,288,309,294,298,298,291,296,260,312,255,304,250,299,234,303,242,292,237,281,242,274,237,269,258,254,261,240,255,230,245,227,242,215,247,209,250,204"
+                href="/linked_site/region/chuncheon.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(14)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="602,424,602,468,621,479,625,495,619,506,588,499,579,505,574,484,583,478,584,457,592,430"
+                href="/linked_site/region/taebaek.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(15)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="500,273,502,286,506,289,512,285,519,288,526,288,536,298,542,314,534,321,534,335,525,342,514,354,509,347,497,351,495,369,490,373,492,384,483,381,481,389,480,397,480,402,487,406,488,415,496,432,498,440,491,437,481,436,471,431,470,422,456,420,453,425,455,433,448,436,437,426,435,409,427,398,419,396,417,381,432,365,429,351,426,340,425,330,427,318,433,312,442,313,456,316,466,311,466,304,473,302,486,302,486,292,489,278"
+                href="/linked_site/region/pyeongchang.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(16)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="489,252,481,256,475,252,465,260,459,256,451,264,444,272,435,272,427,262,421,262,412,276,404,276,395,266,392,259,394,252,377,251,361,238,353,242,337,272,329,262,325,268,312,268,313,276,321,285,317,296,289,300,279,306,275,312,270,316,260,317,252,302,245,311,241,324,248,328,257,324,281,343,305,346,315,353,321,350,327,339,340,334,345,324,359,332,376,319,386,312,419,330,423,315,432,309,459,313,469,300,482,298,487,280,497,271,496,262"
+                href="/linked_site/region/hongcheon.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(17)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="318,131,305,130,298,127,285,138,278,140,271,135,263,135,258,130,255,136,243,147,234,156,233,174,218,180,221,211,238,214,246,203,244,193,249,187,258,192,262,197,270,198,269,206,278,203,283,206,292,202,304,214,317,211,315,201,331,198,326,188,322,180,324,166,322,156,316,148"
+                href="/linked_site/region/hwacheon.html"
+                target="_parent"
+                >
+                <area
+                onmouseover="on_mouse_num(18)"
+                onmouseout="off_mouse()"
+                shape="poly"
+                coords="420,333,421,341,426,362,415,374,413,388,417,400,397,404,397,418,392,423,384,423,379,430,366,428,364,416,372,412,372,404,378,398,370,388,358,386,352,382,345,384,336,367,329,376,322,379,318,400,310,386,304,388,304,379,296,372,305,361,318,358,330,341,340,336,346,330,358,338,374,325,380,326,381,318,386,315,390,322,398,327,406,326,411,333"
+                href="/linked_site/region/hoengseong.html"
+                target="_parent"
+                >
+            </map>
+            <div id="map_info"> 
+                <img src="/image/썸네일.png" id="info_img">
+            </div>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

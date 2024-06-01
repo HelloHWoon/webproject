@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#액티비티 #자연 #풍경 #어린이</p><p>삼척 해양레일바이크</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/삼척/삼척 해양 레일 바이크/1.png">
+                    <img src="/image/region/삼척/삼척 해양 레일 바이크/2.png">
+                    <img src="/image/region/삼척/삼척 해양 레일 바이크/3.png">
+                    <img src="/image/region/삼척/삼척 해양 레일 바이크/4.jpg">
+                    <img src="/image/region/삼척/삼척 해양 레일 바이크/5.jpg">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>곰솔과 기암괴석으로 어우러진 국내 유일의 삼척 해양레일바이크는 아름다운 동해의 해안선을 따라 5.4km복선으로 운행되고 있으며 루미나리에와 레이져 쇼가 연출되는 환상의 터널은 잠시나마 신비로운 해저터널을 여행한 듯한 느낌을 준다. 4계절 모두 바다가 보이는 아름다운 가지각색의 경관을 즐길 수 있다. 삼척시에서 운영하는 레일바이크는 편안함이 강조되어 안전하게 아이들과 함께 동승할 수 있으며 2개의 정거장과 전망대가 있는 휴게소, 그리고 해양도시만이 가지고 있는 해양터널을 가지고 있다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

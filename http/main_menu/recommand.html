@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #container{
+                display: grid;
+                grid-template-columns: 550px 550px;
+                grid-template-rows: 850px 850px;
+                margin: 20px;
+                margin-top: 150px;
+                grid-gap: 150px 50px;
+            }
+            .items{
+                text-align: center;
+            }
+            div p{
+                font-size: 27pt;
+            }
+            div a{
+                margin-top: 0px;
+            }
+            div a:link{
+                color: black;
+            }
+            div a:visited{
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div class="items">
+                <img src="/image/menu_skybay.png" width="550px" height="650px">
+                <p>강릉</p>
+                <a href="/linked_site/region/gangneung.html" target="_parent">더 알아보기</a>
+            </div>
+            <div class="items">
+                <img src="/image/menu_jungsun.png" width="550px" height="650px">
+                <p>정선</p>
+                <a href="/linked_site/region/jeongseon.html" target="_parent">더 알아보기</a>
+            </div>
+            <div class="items">
+                <img src="/image/menu_nami.png" width="550px" height="650px">
+                <p>춘천</p>
+                <a href="/linked_site/region/chuncheon.html" target="_parent">더 알아보기</a>
+            </div>
+            <div class="items">
+                <img src="/image/menu_sokcho.png" width="550px" height="650px">
+                <p>속초</p>
+                <a href="/linked_site/region/sokcho.html" target="_parent">더 알아보기</a>
+            </div>
+        </div>
+    </body>
+</html>

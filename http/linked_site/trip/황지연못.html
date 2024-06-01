@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#자연 #풍경 #조형물 #호수</p><p>황지연못</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/태백/황지연못/1.jpg">
+                    <img src="/image/region/태백/황지연못/2.jpg">
+                    <img src="/image/region/태백/황지연못/3.jpg">
+                    <img src="/image/region/태백/황지연못/4.jpg">
+                    <img src="/image/region/태백/황지연못/5.jpg">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>연못은 둘레가 100m인 상지(上池), 50m인 중지(中池), 30m인 하지(下池), 이렇게 세 개의 연못으로 구성되어있다. 상지에 깊이를 알 수 없는 수굴이 있어 매일 약 5000 톤의 물이 솟아나오는데 예전에는 취수원으로 이용되기도 하였다. 황지연못에서 용출된 물은 황지천(黃池川)을 이루고 구문소(求門沼)를 거쳐 낙동강과 합류하여 경상북도, 경상남도 및 부산광역시의 을숙도에서 남해로 유입된다. 황지연못에는 문화광장이 있는 데 문화광장은 공연을 할 수 있는 무대와 여름에는 분수대, 겨울에는 스케이트 광장으로 이용된다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

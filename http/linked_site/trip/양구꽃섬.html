@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#자연 #꽃 #인스타</p><p>양구 꽃섬</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/양구/양구 꽃섬/1.png">
+                    <img src="/image/region/양구/양구 꽃섬/2.png">
+                    <img src="/image/region/양구/양구 꽃섬/3.jpg">
+                    <img src="/image/region/양구/양구 꽃섬/4.jpg">
+                    <img src="/image/region/양구/양구 꽃섬/5.jpg">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>따뜻한 봄에는 유채꽃과 철쭉류를, 해가 내리쬐는 여름에는 양귀비와 장미를, 하늘이 푸르러지는 가을에는 하늘색과 대비되는 백일홍과 코스모스, 메밀꽃 그리고 해바라기를 볼 수 있다. 그리고 초겨울에는 흐드러진 억새가 길에 펼쳐져 있다. 무성하게 자란 갈대와 버드나무만 가득 차 있던 버려진 공간이 꽃밭과 산책길, 편의시설을 갖춘 아름다운 휴식 공간으로 탈바꿈했다. 양구 파로호 꽃섬은 크게 메타세쿼이아 길, 상록원, 계절원, 아이리스원, 중앙정원으로 나뉜다. 섬 전체가 하나의 식물원처럼 가꿔졌는데 다양하고 아름다운 꽃을 가장 많이 볼 수 있는 시기인 5~6월에 방문하면 유채꽃, 꽃양귀비, 붓꽃, 꽃창포가 환상적인 분위기를 자아낸다. 가을에는 황화 코스모스가 활짝 펴 장관을 이룬다. 나무 데크가 한반도섬까지 연결되어 있어 동시에 둘러볼 수 있다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

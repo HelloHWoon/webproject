@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                margin: 0 auto;
+                display: flex;
+                font-family: 'SCoreDream';
+                font-weight: 900;
+                #menu:hover{
+                    text-decoration-line: underline;
+                } 
+            }
+            #menu{
+                font-size: 25pt;
+                margin-left: 90px;
+                margin-top: auto;
+                margin-bottom: auto;
+                a:link{
+                    text-decoration: none;
+                    color: black;
+                }
+                a:visited{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <a href="/index.html" target="_parent">
+            <img src="/image/logo.png" width="200px" height="115px">
+        </a>
+        <div id="menu">
+            <a href="/linked_site/menubar/menubar_info.html" target="_parent">강원도</a>
+        </div>
+        <div id="menu">
+            <a href="/linked_site/menubar/menubar_recommand.html" target="_parent">추천</a>
+        </div>
+        <div id="menu">
+            <a href="/linked_site/menubar/menubar_travel.html" target="_parent">여행지</a>
+        </div>
+        <div id="menu">
+            <a href="/linked_site/menubar/menubar_region.html" target="_parent">지역</a>
+        </div>
+        <div id="menu"><a href="/linked_site/menubar/menubar_sitemap.html" target="_parent">사이트맵</a></div>
+    </body>
+</html>

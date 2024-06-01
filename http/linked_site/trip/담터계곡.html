@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#계곡 #자연</p><p>담터계곡</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/철원/담터계곡/1.jpg">
+                    <img src="/image/region/철원/담터계곡/2.jpg">
+                    <img src="/image/region/철원/담터계곡/3.jpg">
+                    <img src="/image/region/철원/담터계곡/4.jpg">
+                    <img src="/image/region/철원/담터계곡/5.jpg">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>철원 담터계곡은 강원도 철원군 동송읍 상노리에 위치한 계곡으로, 한탄강 지류인 담터천이 흘러가는 계곡이다. 담터는 산짐승을 사냥해서 잡아먹고 나서 버린 뼈가 담을 쌓을 정도라 하여 그런 이름이 붙었다. 계곡의 길이는 약 7km이며 초입부터 절경을 이루는데, 용정산 남쪽 기슭에 자리한 먹바위와 신포동을 지나서 만나는 수직 절벽 불상암은 담터계곡의 절경이라 할 만하다. 이곳은 한여름에도 울창한 수목과 맑은 물로 한기를 느낄 정도다. 암반을 따라 흐르는 계곡물은 우기에도 물이 깨끗하여 스노클링 장비를 준비하면 물속의 고기들도 볼 수 있다. 서울에서 자동차로 2시간 정도여서 접근성도 좋은 곳이며, 물이 맑고 수심이 적당해서 아이들과 물놀이하기에 좋은 계곡이다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

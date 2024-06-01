@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#계곡 #자연</p><p>무릉계곡</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/동해/무릉계곡/1.png">
+                    <img src="/image/region/동해/무릉계곡/2.png">
+                    <img src="/image/region/동해/무릉계곡/3.png">
+                    <img src="/image/region/동해/무릉계곡/4.png">
+                    <img src="/image/region/동해/무릉계곡/5.png">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>무릉계곡은 두타산과 청옥산, 고적대에서 발원한 계류가 흐르는 골짜기로 호암소에서 용추폭포까지 약 4km의 계곡을 말한다. 무릉계곡 주변에 상수의 풍치가 절경을 이루어 소금강이라고도 불리며, 1977년 3월 17일 국민관광지로 지정, 2008년도에는 명승지로 지정되었다. 무릉계곡이라는 명칭은 고려 충렬왕 때 이승휴가 또는 조선 선조 때 삼척부사 김효원이 처음 무릉계곡이라는 이름을 지었다고 한다. 신선이 사는 곳처럼 아름답다고 하여 무릉도원으로 불린다. 무릉계곡은 신선교를 건너면서 기암괴석과 산수의 절경이 시작되며, 많은 관광객과 등산객들이 찾는 명산 중 한곳이다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

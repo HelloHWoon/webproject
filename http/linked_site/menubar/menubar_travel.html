@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            .category{
+                margin: 0 auto;
+                width: 1250px;
+                height: 500px;
+            }
+            .category > p{
+                font-size: 30pt;
+                font-weight: 900;
+                margin-left: 20px;
+            }
+            .category img{
+                width: 280px;
+                height: 300px;
+                margin-left: 20px;
+                border-radius: 10%;
+                border: solid 2px black;
+            }
+            .category > div{
+                display: inline-block;
+            }
+            .category > div > p{
+                margin-left: 25px;
+                font-size: 18pt;
+                font-weight: 900;
+            }
+            .re_img{
+                margin: 0 auto;
+                margin-top: 5px;
+                width: 1880px;
+                height: 600px;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div class="re_img">
+            <img src="/image/travel_img.png">
+        </div>
+        <div class="category" style="margin-top: 50px;">
+            <p>인기 여행지</p>
+            <div><a href="/linked_site/region/chuncheon.html" target="_parent"><img src="/image/region/춘천/제이드 가든/0.png"></a><p>춘천</p></div>
+            <div><a href="/linked_site/region/jeongseon.html" target="_parent"><img src="/image/region/정선/하이원리조트/0.png"></a><p>정선</p></div>
+            <div><a href="/linked_site/region/wonju.html" target="_parent"><img src="/image/region/원주/원주중앙시장/0.png"></a><p>원주</p></div>
+            <div><a href="/linked_site/region/sokcho.html" target="_parent"><img src="/image/region/속초/설악산/0.png"></a><p>속초</p></div>
+        </div>
+        <div class="category">
+            <div><a href="/linked_site/region/yangyang.html" target="_parent"><img src="/image/region/양양/오색 탄산온천/0.png"></a><p>양양</p></div>
+            <div><a href="/linked_site/region/pyeongchang.html" target="_parent"><img src="/image/region/평창/휘닉스워터파크/0.png"></a><p>평창</p></div>
+            <div><a href="/linked_site/region/gangneung.html" target="_parent"><img src="/image/region/강릉/오죽헌/0.png"></a><p>강릉</p></div>
+            <div><a href="/linked_site/region/hoengseong.html" target="_parent"><img src="/image/region/횡성/노랑공장/0.png"></a><p>횡성</p></div>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

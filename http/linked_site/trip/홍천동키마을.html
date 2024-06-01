@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#동물 #아이들 #액티비티</p><p>홍천동키마을</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/홍천/홍천동키마을/image99.png">
+                    <img src="/image/region/홍천/홍천동키마을/image100.png">
+                    <img src="/image/region/홍천/홍천동키마을/image101.png">
+                    <img src="/image/region/홍천/홍천동키마을/image102.png">
+                    <img src="/image/region/홍천/홍천동키마을/image103.png">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>홍천 동키마을은 강원특별자치도 홍천군 화촌면에 위치한 마을로 당나귀를 테마로 하는 이색창의체험공간과 맑은 홍천강이 흐르는 대진강변 유원지가 함께 하고 있으며 서울에서 1시간, 원주나 춘천에서도 1시간 이내에 도착할 수 있는 하루 나들이 장소로써, 그리고 단체 워크샵과 가족 여행, 교육체험관광 코스로써 손색이 없는 곳이다. 홍천동키마을에서는 당나귀를 타볼 수 있는 승나체험, 당나귀 우유 족욕, 당나귀 오일 비누만들기 등 다채롭게 준비된 체험 콘텐츠와 수려한 홍천강 장관 아래 강변에서 여유를 만끽하며 남녀노소 누구나 어린아이와 같은 순수한 마음으로 무공해 웃음을 함께 공유할 수 있다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

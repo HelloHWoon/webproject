@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#밤 #하늘 #자연</p><p>화천 조경철 천문대</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/화천/화천 조경철 천문대/천문대1.jpg">
+                    <img src="/image/region/화천/화천 조경철 천문대/천문대2.jpg">
+                    <img src="/image/region/화천/화천 조경철 천문대/천문대3.jpg">
+                    <img src="/image/region/화천/화천 조경철 천문대/천문대4.jpg">
+                    <img src="/image/region/화천/화천 조경철 천문대/천문대5.jpg">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>조경철 천문대의 명칭은 광덕산 천문대다. 별과 함께 살아온 아폴로 박사 고성 조경철 박사님의 업적을 기리기 위해 2014년 10월 10일 화천군의 주도로 건립되었으며, 이곳 조경철 천문대에서는 대중과 친근한 과학자로, 과학의 대중화를 꾀하고, 우주과학 입국을 위한 계몽사로써 큰 공헌을 하신 조경철 박사님의 꿈과 발자취를 고스란히 느껴볼 수 있는 곳이다. 천문대에 마련된 ‘조경철 기념관’에는 박사의 열정 가득한 삶의 발자취를 엿볼 수 있다. 전시공간에는 천문 전시실이 있어 우주 중력 체중계에 올라가 볼 수 있고 별자리 스탬프도 찍을 수 있다. 무엇보다 천문대의 스케일 큰 밤하늘 보기는 잊지 못할 추억이 될 것이다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

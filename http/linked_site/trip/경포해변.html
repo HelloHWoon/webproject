@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#바다 #자연</p><p>경포해변</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/강릉/경포해변/1.jpg">
+                    <img src="/image/region/강릉/경포해변/2.png">
+                    <img src="/image/region/강릉/경포해변/3.jpg">
+                    <img src="/image/region/강릉/경포해변/4.jpg">
+                    <img src="/image/region/강릉/경포해변/5.jpg">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>강원도 강릉시 안현동에 자리한 경포대 해변은 언제나 그렇듯 여름철 최고의 해수욕장 중 하나이다. 무더운 여름철, 대한민국의 젊음을 느끼고 싶다면 부산의 해운대, 강릉의 경포대를 가라는 말이 있다. 덕분에 젊은이들이 많이 몰리면서 가족단위의 관광객들은 고성과 양양의 해수욕장으로 퍼져 나갔다. 경포는 동해안 최대 해변으로 유명하며 시내에서 북으로 6km, 경포대에서 1km되는 곳에 동해의 창파를 가득 담고 펼처진 명사오리이다. 그에 걸맞게, 여름철 늘어선 파라솔은 물감을 뿌려놓은 것처럼 장관을 이룬다. 그 장관을 즐기고 나서야 강릉관광의 시작이라고 말할 수 있다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

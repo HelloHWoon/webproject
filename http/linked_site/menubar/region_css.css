@@ -1,0 +1,12 @@
+.map{
+    margin: 0 auto;
+    width: 1400px;
+    height: 750px;
+}
+#map_info{
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    height: 600px;
+    top: 50px;
+}

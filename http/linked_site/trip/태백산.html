@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#산 #자연 #풍경</p><p>태백산</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/태백/태백산/1.jpg">
+                    <img src="/image/region/태백/태백산/2.jpg">
+                    <img src="/image/region/태백/태백산/3.jpg">
+                    <img src="/image/region/태백/태백산/4.jpg">
+                    <img src="/image/region/태백/태백산/5.jpg">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>태백산은 1989년 5월 13일 도립공원으로 지정되었으며, 2016년 우리나라 22번째 국립공원으로 지정되었다. 전체면적은 70.052㎢이며 천제단이 있는 영봉(1,560m)을 중심으로 북쪽에 장군봉(1,567m), 동쪽에 문수봉(1,517m), 영봉과 문수봉 사이의 부쇠봉(1,546m) 등으로 이뤄져 있으며, 최고봉은 함백산(1,527m)이다. 태백산은 수천 년간 제천의식을 지내던 천제단과 한강의 발원지인 검룡소 등 풍부한 문화자원과 야생화 군락지인 금대봉~대덕산 구간, 만항재, 장군봉 주변의 주목 군락지 등 다양하고 뛰어난 생태경관을 보유하고 있다. 암벽이 적고 경사가 완만하여 남녀노소 누구나 쉽게 오를 수 있는 산으로 정상에는 고산식물이 자생하며 봄에는 아름다운 산철쭉을, 겨울에는 눈이 부시도록 하얀 눈꽃 절경을 만날 수 있다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

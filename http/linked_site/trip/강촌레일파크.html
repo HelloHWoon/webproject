@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#자연 #풍경 #인기 #인스타</p><p>강촌레일파크</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/춘천/강촌레일파크 김유정역/image01.png">
+                    <img src="/image/region/춘천/강촌레일파크 김유정역/image02.png">
+                    <img src="/image/region/춘천/강촌레일파크 김유정역/image03.png">
+                    <img src="/image/region/춘천/강촌레일파크 김유정역/image04.png">
+                    <img src="/image/region/춘천/강촌레일파크 김유정역/image05.png">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>강촌 레일파크는 1939년에 처음 개통돼 2010년 전철화된 새로운 경춘선 철도가 생기기 전까지 사용되었던 옛 경춘선 철로를 이용한 레일바이크다. 경춘선은 수십 년 동안 대학생에게 대한민국 MT 1번지인 대성리와 청평, 가평, 춘천을 잇는다. 춘천 가는 기차라는 노래로도 만들어질 만큼 낭만의 상징으로 사랑받는 길이었다. 이제 옛 경춘선으로 기차가 다니지 않지만, 레일바이크로 달리는 낭만의 기찻길에서 누군가는 젊은 시절의 추억을 떠올리고, 누군가는 새로운 추억을 만든다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>

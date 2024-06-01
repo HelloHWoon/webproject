@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="slide.css">
+        <script defer src="slide.js"></script>
+        <style>
+            @font-face {
+                font-family: 'SCoreDream';
+                font-weight: 400; 
+                font-style: normal; 
+                src: url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff2) format('woff2'),
+                    url(https://cdn.jsdelivr.net/gh/webfontworld/SCoreDream/SCoreDream4.woff) format('woff');
+                font-display: swap;
+            }
+            body{
+                font-family: 'SCoreDream';
+            }
+            #head{
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                padding-top: 20px;
+                border-bottom: solid lightgray;
+            }
+            #foot{
+                width: 1200px;
+                height: 200px;
+                margin: 0 auto;
+                border-top: solid lightgray;
+            }
+            #info_top{
+                padding-top: 100px;
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px;
+                height: 200px;
+            }
+            #info_top p:first-child{
+                color: blue;
+                font-size: 15pt;
+            }
+            #info_top p:last-child{
+                font-size: 35pt;
+                font-weight: 900;
+                margin-top: 0;
+                padding-bottom: 25px;
+                border-bottom: solid 2px lightgray;
+            }
+            .info_main{
+                margin: 0 auto;
+                width: 1200px;
+                height:300px;
+            }
+            .info_main p{
+                padding-top: 50px;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(240, 240, 223)">
+        <div id="head">
+            <object data="/main_menu/menubar.html" width="1200px" height="120px"></object>
+        </div>
+        <div id="info_top"><p>#역사 #문화 #자연</p><p>수타사</p></div>
+        <div class="box">
+            <div class="slide">
+                <div class="images">
+                    <img src="/image/region/홍천/수타사/image94.png">
+                    <img src="/image/region/홍천/수타사/image95.png">
+                    <img src="/image/region/홍천/수타사/image96.png">
+                    <img src="/image/region/홍천/수타사/image97.png">
+                    <img src="/image/region/홍천/수타사/image98.png">
+                </div>
+            </div>
+            <img src="/image/left.png" class="back">
+            <img src="/image/right.png" class="next">
+            <div class="more_info" onclick='more_info()'></div>
+        </div>
+        <div class="info_main">
+            <p>공작산은 해발 887m로 산 정상에서 바라보면 홍천군 일대가 한눈에 들어오며, 산세가 공작이 날개를 펼친 모습과 같다하여 붙여진 이름이다. 또한, 홍천읍에서 바라보면 거인이 하늘을 향해 누워있는 형상을 하고 있는 모습이다. 봄에는 철쭉, 가을에는 단풍이 매우 아름다우며 기암절벽과 분재모양의 노송군락, 눈 덮인겨울산도 일품이다. 수타사에서 동면 노천리까지 약12km에 이르는 수타사 계곡에는 넓은 암반과 큼직큼직한 소들이 비경을 이루고 있고, 계곡 양쪽으로는 기암절벽과 빽빽이 우거진 숲이 호위하고 있어 이곳에서 잠시 휴식을 취하다보면 비경삼매에 빠져들기 일쑤이다. 또한, 한국 100대 명산 공작산 끝자락에 자리한 천년 고찰 수타사는 신라 33대 성덕왕 7년원효대사에 의해 창건되었다고 전해지며 대적광전 팔작지붕과 1364년 만든 동종, 3층석탑이 보존되어 있고 월인석보를 비롯한 대적광전, 범종, 후불탱화,홍우당부도 등 수많은 문화재를 소장하고 있는 영서내륙 최고 고찰이다.</p>
+        </div>
+        <div id="foot">
+            <object data="/main_menu/footer.html" width="1200px" height="200px"></object>
+        </div>
+    </body>
+</html>
